@@ -16,9 +16,18 @@ public class User {
     private String username;
     private String password;
     private String displayname;
+    private String eid;
     ArrayList<Role> roles = new ArrayList<>();
 
     public User() {
+    }
+
+    public String getEid() {
+        return eid;
+    }
+
+    public void setEid(String eid) {
+        this.eid = eid;
     }
 
     public ArrayList<Role> getRoles() {
