@@ -28,11 +28,9 @@ public class LoginController extends HttpServlet{
         
         if(account != null){         
             //Chen duong link cua tung phong ban vao day
-            
             req.getSession().setAttribute("account", account);        
         } else {
             //Chen duong linh dang nhap lai vao day
-            
         }
     }
 
